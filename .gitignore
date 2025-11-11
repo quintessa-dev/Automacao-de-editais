@@ -1,0 +1,28 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+
+# Environment / local config
+.env
+
+# OAuth / API secrets (VERY important)
+client_secret.json
+token.json
+
+# Logs & misc
+*.log
+
+# Editor / OS junk
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# (If you later have a JS build:)
+node_modules/
+dist/
+build/
